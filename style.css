@@ -1,15 +1,5 @@
-body
-{
-color:red;
-}
-h1
-{
-    color: green
-}
-h2{
-    color: blue;
-}
-#top-head
-{
-    color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Limelight', cursive;
+font-family: 'Open Sans', sans-serif;
 }
