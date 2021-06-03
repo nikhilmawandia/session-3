@@ -3,6 +3,7 @@ body{
     font-family: 'Limelight', cursive;
 font-family: 'Open Sans', sans-serif;
 }
+/**containers **/
 .container-centre
 {
  max-width: 600px;
@@ -13,4 +14,25 @@ font-family: 'Open Sans', sans-serif;
     padding-left: 1rem;
     padding-right: 1rem;
 
+}
+
+/** primary link **/
+.primary-link
+{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    background-color:blueviolet;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.Secondary-link
+{
+    text-decoration: none;
+    background-color: white;
+    border:1px ;
+    padding:1rem 1rem;
+    border-radius: 0.5rem;
+    color: teal;
+   
 }
