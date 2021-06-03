@@ -8,6 +8,7 @@ font-family: 'Open Sans', sans-serif;
 {
  max-width: 600px;
  margin: auto;   
+ padding: 2rem 0rem;
 }
 .fluid-container
 {
@@ -24,15 +25,18 @@ font-family: 'Open Sans', sans-serif;
     background-color:blueviolet;
     border-radius: 0.5rem;
     color: white;
+    border-style: inset;
+    border-color: black;
 }
 
 .Secondary-link
 {
     text-decoration: none;
-    background-color: white;
-    border:1px ;
-    padding:1rem 1rem;
+    background-color:white;
+    padding: 1rem 1rem;
     border-radius: 0.5rem;
-    color: teal;
+    border-style: inset;
+    border-color: black;
+    
    
 }
