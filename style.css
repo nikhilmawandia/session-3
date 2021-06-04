@@ -3,6 +3,7 @@
 :root
 {
     --primary-color:#6366F1;
+    --hero-color:chartreuse;
 }
 body{
     font-family: 'Limelight', cursive;
@@ -56,6 +57,7 @@ font-family: 'Open Sans', sans-serif;
 
 .list-inline
 {
+    text-decoration: none;
     display: inline;
     padding: 0rem 0.5rem;
     
@@ -67,22 +69,57 @@ hr
 }
 .navigation-container
 {
+    
     background-color: var(--primary-color);
 color: white ;
-max-width: 800px;
+max-width:none;
+padding: 0.5rem 0rem;
+border-bottom-left-radius: 1rem;
 }
 .nav-brand
 {
-    padding:0rem 0.5rem;
+    padding:1rem 0.5rem;
 }
 .navigation-container .unordered 
 {
     
     text-align: right;
-    
+    padding: 1rem 0 rem ;
 }
 .navigation-container .nav-links
 {
     color:white; 
+    text-decoration: none;
+    
 }
+.navigation-container  .link-active
+{
+    font-weight: bold;
+}
+
+.hero
+{
+    padding: 2rem 0rem;
+    
+}
+
+.hero .hero-image
+{
+    max-width: 350px;
+    display: block ;
+    margin: auto;
+}
+
+.hero .hero-heading
+{
+    text-align: center;
+    padding: 1rem  3rem;
+    color: var(--hero-color);
+}
+.hero .hero-heading .textbold
+{
+    color: var(--primary-color);
+    text-shadow: red;
+}
+
 
