@@ -125,3 +125,10 @@ hr {
     padding: 1rem;
     background-color: var(--off-white-color);
 }
+
+.footer-list .inline {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    
+}
