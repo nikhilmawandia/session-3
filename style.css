@@ -1,125 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:ital,wght@1,300&display=swap');
 
-:root
-{
-    --primary-color:#6366F1;
-    --hero-color:chartreuse;
+:root {
+    --primary-color: #6366F1;
+    --hero-color: chartreuse;
+    --off-white-color: #F3F4F6;
 }
-body{
+
+body {
     font-family: 'Limelight', cursive;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 /**containers **/
-.container-centre
-{
- max-width: 600px;
- margin: auto;   
- padding: 2rem 0rem;
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem 0rem;
 }
-.fluid-container
-{
+
+.fluid-container {
     padding-left: 1rem;
     padding-right: 1rem;
 
 }
 
 /** primary link **/
-.primary-link
-{
+.primary-link {
     text-decoration: none;
     padding: 1rem 1rem;
     border-radius: 0.5rem;
-   color: white;
-    border:1px solid var(--primary-color)  ;
+    color: white;
+    border: 1px solid var(--primary-color);
     border-color: black;
     background-color: var(--primary-color);
 }
 
-.Secondary-link
-{
+.Secondary-link {
     color: var(--primary-color);
     text-decoration: none;
-    background-color:white;
+    background-color: white;
     padding: 1rem 1rem;
     border-radius: 0.5rem;
-    border: 1px ;
+    border: 1px;
     border-style: inset;
     border-color: black;
-    
-   
+
+
 }
 
 /** lists **/
-.list-non-bullet
-{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-inline
-{
+.list-inline {
     text-decoration: none;
     display: inline;
     padding: 0rem 0.5rem;
-    
+
 }
 
-hr
-{
+hr {
     margin: 2rem;
 }
-.navigation-container
-{
-    
+
+.navigation-container {
+
     background-color: var(--primary-color);
-color: white ;
-max-width:none;
-padding: 0.5rem 0rem;
-border-bottom-left-radius: 1rem;
+    color: white;
+    max-width: none;
+    padding: 0.5rem 0rem;
+    border-bottom-left-radius: 1rem;
 }
-.nav-brand
-{
-    padding:1rem 0.5rem;
+
+.nav-brand {
+    padding: 1rem 0.5rem;
 }
-.navigation-container .unordered 
-{
-    
+
+.navigation-container .unordered {
+
     text-align: right;
-    padding: 1rem 0 rem ;
+    padding: 1rem 0 rem;
 }
-.navigation-container .nav-links
-{
-    color:white; 
+
+.navigation-container .nav-links {
+    color: white;
     text-decoration: none;
-    
+
 }
-.navigation-container  .link-active
-{
+
+.navigation-container .link-active {
     font-weight: bold;
 }
 
-.hero
-{
+.hero {
     padding: 2rem 0rem;
-    
+
 }
 
-.hero .hero-image
-{
-    max-width: 350px;
-    display: block ;
+.hero .hero-image {
+    max-width: 300px;
+    display: block;
     margin: auto;
 }
 
-.hero .hero-heading
-{
+.hero .hero-heading {
     text-align: center;
-    padding: 1rem  3rem;
+    padding: 1rem 3rem;
     color: var(--hero-color);
 }
-.hero .hero-heading .textbold
-{
+
+.hero .hero-heading .textbold {
     color: var(--primary-color);
     text-shadow: red;
 }
 
+.section h3 {
+    text-align: center;
 
+
+}
+
+.off-white {
+    padding: 1rem;
+    background-color: var(--off-white-color);
+}
