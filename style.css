@@ -126,9 +126,22 @@ hr {
     background-color: var(--off-white-color);
 }
 
-.footer-list .inline {
+.footer-list .list-inline {
     display: inline;
     list-style: none;
     text-decoration: none;
     
+
+}
+.footer{
+    background-color: var(--primary-color);
+padding: 2rem 1rem;
+text-align: center;
+color: white;
+border-top-right-radius: 1rem;
+
+}
+.footer .list-inline
+{
+    color: white;
 }
