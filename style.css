@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:ital,wght@1,300&display=swap');
 
 :root {
-    --primary-color: #6366F1;
+    --primary-color: #7C3AED;
     --hero-color: chartreuse;
     --off-white-color: #F3F4F6;
 }
@@ -127,6 +127,7 @@ padding: 0rem 10rem;
 .off-white {
     padding: 1rem;
     background-color: var(--off-white-color);
+    text-align: center;
 }
 
 .footer-list .list-inline {
